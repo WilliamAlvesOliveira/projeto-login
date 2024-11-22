@@ -68,6 +68,7 @@ form > div.campo{
     background-color: var(--lilas);
     width:100%;
     height: 40px;
+    border: 2px solid var(--lilas);
     border-radius: 8px;
 }
 
@@ -98,7 +99,7 @@ form > div > input{
     border: 0px;
     border-radius: 8px ;
     padding: 4px;
-    transform: translatey(-10px);
+    transform: translatey(-11.5px);
 }
 
 form > div > input[type=submit]{
