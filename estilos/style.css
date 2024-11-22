@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /*Paleta de cores*/
-
 :root{
     --verde: #49a09d;
     --lilas: #5f2c82;
@@ -35,6 +34,9 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgb(00, 00, 00, 0.7);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
