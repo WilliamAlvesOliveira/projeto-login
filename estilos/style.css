@@ -68,7 +68,6 @@ form > div.campo{
     background-color: var(--lilas);
     width:100%;
     height: 40px;
-    border: 1px solid var(--lilas);
     border-radius: 8px;
 }
 
@@ -91,11 +90,11 @@ form > div > input{
     background-color: var(--verde);
     font-size: 1em;;
     width: calc(100% - 45px);
-    height: 100%;
+    height: 40px;
     border: 0px;
     border-radius: 8px ;
     padding: 4px;
-    transform: translatey(-11px);
+    transform: translatey(-10px);
 }
 
 form > div > input[type=submit]{
