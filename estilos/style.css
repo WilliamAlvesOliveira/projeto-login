@@ -71,6 +71,10 @@ form > div.campo{
     border-radius: 8px;
 }
 
+#senha{
+    height: 40.5px;
+}
+
 div.campo > input:focus-within{
     background-color: white;
 }
@@ -90,7 +94,7 @@ form > div > input{
     background-color: var(--verde);
     font-size: 1em;;
     width: calc(100% - 45px);
-    height: 40px;
+    height: 39px;
     border: 0px;
     border-radius: 8px ;
     padding: 4px;
@@ -129,7 +133,7 @@ form a.botao{
 }
 
 form a.botao span{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 form a.botao:hover{
